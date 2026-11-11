@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #050816;
+  color: #e2e8f0;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background: #070b16;
+}
+
+.respawn-menu {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(2, 6, 23, 0.55);
+  backdrop-filter: blur(2px);
+}
+
+.respawn-menu[hidden] {
+  display: none;
+}
+
+.respawn-card {
+  min-width: 280px;
+  padding: 28px 32px 20px;
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  border-radius: 12px;
+  background: rgba(7, 11, 22, 0.92);
+  text-align: center;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.respawn-card h2 {
+  margin: 0 0 6px;
+  font-size: 22px;
+  color: #f87171;
+}
+
+.respawn-cause {
+  margin: 0 0 18px;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.respawn-stats {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin: 0 0 22px;
+}
+
+.respawn-stats dt {
+  color: #64748b;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.respawn-stats dd {
+  margin: 4px 0 0;
+  font-size: 22px;
+  color: #e2e8f0;
+}
+
+.respawn-button {
+  width: 100%;
+  padding: 11px 16px;
+  border: 0;
+  border-radius: 8px;
+  background: #38bdf8;
+  color: #04121f;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.respawn-button:disabled {
+  background: #1e293b;
+  color: #64748b;
+  cursor: default;
+}
+
+.respawn-button:not(:disabled):hover {
+  background: #7dd3fc;
+}
+
+.respawn-hint {
+  margin: 10px 0 0;
+  color: #475569;
+  font-size: 11px;
+}
+
+.respawn-note {
+  margin: -8px 0 18px;
+  color: #fbbf24;
+  font-size: 12px;
+}
