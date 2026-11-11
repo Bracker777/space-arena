@@ -1,0 +1,8 @@
+{
+  "classic": {
+    "name": "Classic",
+    "asteroidDensity": 1,
+    "hunterChance": 0.25,
+    "pickupEvery": 7,
+    "maxPickups": 3,
+    "background": "#070b1

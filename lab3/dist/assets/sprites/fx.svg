@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="32" viewBox="0 0 160 32">
+<rect x="6" y="14" width="20" height="4" rx="2" fill="#f8fafc"/><rect x="2" y="12" width="28" height="8" rx="4" fill="#38bdf8" opacity="0.35"/>
+<rect x="38" y="14" width="20" height="4" rx="2" fill="#f5d0fe"/><rect x="34" y="12" width="28" height="8" rx="4" fill="#c084fc" opacity="0.45"/>
+<g>
+  <polygon points="80,2 92,9 92,23 80,30 68,23 68,9" fill="#0f172a" stroke="#a3e635" stroke-width="2.4"/>
+  <text x="80" y="21" font-family="Consolas, monospace" font-weight="700" font-size="13" text-anchor="middle" fill="#a3e635">S</text>
+</g>
+<g>
+  <polygon points="112,2 124,9 124,23 112,30 100,23 100,9" fill="#0f172a" stroke="#fbbf24" stroke-width="2.4"/>
+  <text x="112" y="21" font-family="Consolas, monospace" font-weight="700" font-size="13" text-anchor="middle" fill="#fbbf24">R</text>
+</g>
+<g>
+  <polygon points="144,2 156,9 156,23 144,30 132,23 132,9" fill="#0f172a" stroke="#c084fc" stroke-width="2.4"/>
+  <text x="144" y="21" font-family="Consolas, monospace" font-weight="700" font-size="13" text-anchor="middle" fill="#c084fc">H</text>
+</g>
+</svg>

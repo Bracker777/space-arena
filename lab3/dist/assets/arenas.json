@@ -1,0 +1,29 @@
+{
+  "classic": {
+    "name": "Classic",
+    "asteroidDensity": 1,
+    "hunterChance": 0.25,
+    "pickupEvery": 7,
+    "maxPickups": 3,
+    "background": "#070b16",
+    "grid": "rgba(56, 189, 248, 0.08)"
+  },
+  "swarm": {
+    "name": "Swarm",
+    "asteroidDensity": 1.8,
+    "hunterChance": 0.5,
+    "pickupEvery": 5,
+    "maxPickups": 4,
+    "background": "#12070c",
+    "grid": "rgba(248, 113, 113, 0.08)"
+  },
+  "calm": {
+    "name": "Calm Belt",
+    "asteroidDensity": 0.6,
+    "hunterChance": 0,
+    "pickupEvery": 9,
+    "maxPickups": 2,
+    "background": "#06110c",
+    "grid": "rgba(74, 222, 128, 0.07)"
+  }
+}

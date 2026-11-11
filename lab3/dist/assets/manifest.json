@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "loader": { "timeoutMs": 2500, "attempts": 3, "baseMs": 250 },
+  "data": {
+    "arenas": { "url": "arenas.json", "required": true }
+  },
+  "sprites": {
+    "ships": {
+      "url": "sprites/ships.svg",
+      "frames": { "ship": [0, 0, 64, 64], "ship-thrust": [64, 0, 64, 64] }
+    },
+    "asteroids": {
+      "url": "sprites/asteroids.svg",
+      "frames": {
+        "3-0": [0, 0, 96, 96], "3-1": [96, 0, 96, 96],
+        "2-0": [192, 0, 96, 96], "2-1": [288, 0, 96, 96],
+        "1-0": [384, 0, 96, 96], "1-1": [480, 0, 96, 96],
+        "h3": [576, 0, 96, 96], "h2": [672, 0, 96, 96], "h1": [768, 0, 96, 96]
+      }
+    },
+    "fx": {
+      "url": "sprites/fx.svg",
+      "frames": {
+        "bullet": [0, 0, 32, 32],
+        "bullet-homing": [32, 0, 32, 32],
+        "pickup-shield": [64, 0, 32, 32],
+        "pickup-rapid": [96, 0, 32, 32],
+        "pickup-homing": [128, 0, 32, 32]
+      }
+    }
+  },
+  "sounds": {
+    "shoot": { "url": "sounds/shoot.wav" },
+    "hit": { "url": "sounds/hit.wav" },
+    "explosion": { "url": "sounds/explosion.wav" },
+    "pickup": { "url": "sounds/pickup.wav" }
+  }
+}
