@@ -1,0 +1,25 @@
+{"t":1794489448583,"room":"alpha","type":"join","player":{"id":"p1","name":"Bob"}}
+{"t":1794489449203,"room":"alpha","type":"join","player":{"id":"p2","name":"Ann"}}
+{"t":1794489449205,"room":"alpha","type":"chat","from":{"id":"p2","name":"Ann"},"text":"поки сервер лежить"}
+{"t":1794489468151,"room":"alpha","type":"leave","player":{"id":"p1","name":"Bob"},"reason":"disconnected"}
+{"t":1794489468158,"room":"alpha","type":"leave","player":{"id":"p2","name":"Ann"},"reason":"disconnected"}
+{"t":1794489570682,"room":"alpha","type":"join","player":{"id":"p3","name":"Sender"}}
+{"t":1794489570686,"room":"alpha","type":"join","player":{"id":"p4","name":"Receiver"}}
+{"t":1794489570843,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489570840"}
+{"t":1794489570999,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489570997"}
+{"t":1794489571156,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489571154"}
+{"t":1794489571311,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489571309"}
+{"t":1794489571468,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489571465"}
+{"t":1794489571626,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489571623"}
+{"t":1794489572035,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489571781"}
+{"t":1794489572035,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489571939"}
+{"t":1794489572098,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489572095"}
+{"t":1794489572252,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489572250"}
+{"t":1794489572409,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489572407"}
+{"t":1794489572565,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489572564"}
+{"t":1794489572723,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489572721"}
+{"t":1794489572879,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489572878"}
+{"t":1794489573034,"room":"alpha","type":"chat","from":{"id":"p3","name":"Sender"},"text":"ping 1794489573033"}
+{"t":1794489573380,"room":"alpha","type":"leave","player":{"id":"p3","name":"Sender"},"reason":"left"}
+{"t":1794489573382,"room":"alpha","type":"leave","player":{"id":"p4","name":"Receiver"},"reason":"left"}
+{"t":1794489607230,"room":"alpha","type":"join","player":{"id":"p5","name":"Bob"}}

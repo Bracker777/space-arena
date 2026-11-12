@@ -1,0 +1,9 @@
+{"t":1794489846310,"room":"alpha","type":"join","player":{"id":"p1","name":"1"}}
+{"t":1794489848120,"room":"alpha","type":"leave","player":{"id":"p1","name":"1"},"reason":"disconnected"}
+{"t":1794489858381,"room":"alpha","type":"join","player":{"id":"p2","name":"1"}}
+{"t":1794489872221,"room":"alpha","type":"join","player":{"id":"p3","name":"2"}}
+{"t":1794489898444,"room":"alpha","type":"chat","from":{"id":"p3","name":"2"},"text":"привіт"}
+{"t":1794489903310,"room":"alpha","type":"chat","from":{"id":"p2","name":"1"},"text":"привіт"}
+{"t":1794489975056,"room":"alpha","type":"join","player":{"id":"p4","name":"3"}}
+{"t":1794489994762,"room":"alpha","type":"leave","player":{"id":"p3","name":"2"},"reason":"left"}
+{"t":1794490003167,"room":"alpha","type":"leave","player":{"id":"p4","name":"3"},"reason":"left"}

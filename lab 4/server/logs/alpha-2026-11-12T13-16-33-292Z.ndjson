@@ -1,0 +1,3 @@
+{"t":1794489432229,"room":"alpha","type":"join","player":{"id":"p1","name":"Ann"}}
+{"t":1794489436333,"room":"alpha","type":"join","player":{"id":"p2","name":"Bob"}}
+{"t":1794489437530,"room":"alpha","type":"chat","from":{"id":"p2","name":"Bob"},"text":"привіт, Ann!"}
